@@ -77,7 +77,7 @@ select = [
     "UP",
     # isort
     "I",
-    # pylint 
+    # pylint
     "PL",
 ]
 
@@ -115,6 +115,7 @@ parser_entry_point = "nomad_ikz_sem.parsers:parser_entry_point"
 schema_package_entry_point = "nomad_ikz_sem.schema_packages:schema_package_entry_point"
 normalizer_entry_point = "nomad_ikz_sem.normalizers:normalizer_entry_point"
 app_entry_point = "nomad_ikz_sem.apps:app_entry_point"
+data_entries_entry_point = "nomad_ikz_sem.schema_packages:data_entries_entry_point"
 
 [tool.cruft]
 # Avoid updating workflow files, this leads to permissions issues
